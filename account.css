@@ -1,0 +1,42 @@
+#show article {
+    flex-basis: 90%;
+    text-align: center;
+    padding: 2em 1em;
+}
+
+td {
+    border: 2px solid black;
+}
+
+#show table {
+    text-align: center;
+    border-collapse: collapse;
+    margin: 2em 0 0 0;
+}
+
+#show table img {
+    width: 90%;
+    height: auto;
+    margin: 0.5em;
+    display: inline;
+}
+
+.image {
+    width: 20%;
+}
+
+span {
+    border: 2px solid black;
+}
+
+#show p {
+    display: inline;
+}
+
+#show span p {
+    display: block;
+}
+
+#show span table p {
+    display: inline;
+}

@@ -1,0 +1,48 @@
+#login, #register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px dashed black;
+    margin: 0 0 0 auto;
+    width: 40%;
+    text-align: center;
+    background: #AAE1F7;
+    float: left;
+}
+
+#register {
+    float: right;
+    width: 40%;
+    margin: 0 auto 0 0;
+}
+
+#login form, #register form {
+    box-shadow: 0 0 2em 0.5em grey;
+    background: #F1EDC6;
+    max-width: 20em;
+    padding: 1em 0;
+    border: 5px outset grey;
+    margin: 1em auto;
+}
+
+#login input:invalid, #register input:invalid {
+    border-color: red;
+}
+
+#login input, #register input {
+    border-radius: 0.5em;
+    display: block;
+    padding: 0.5em;
+    margin: 0 auto 1.5em auto;
+    border-color: #ccc;
+}
+
+fieldset {
+    margin: 1em 0 0 0;
+    border: 0;
+}
+
+#top ul {
+    width: 50%;
+    margin: 0 auto;
+}

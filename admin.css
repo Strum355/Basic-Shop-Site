@@ -1,0 +1,17 @@
+tr {
+    margin: 1em;
+    border: 2px solid black;
+}
+
+td {
+    border: 2px solid black;
+    padding: 1em;
+}
+
+table {
+    border-collapse:collapse;
+}
+
+#show table img {
+    width: 100%;
+}

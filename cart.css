@@ -1,0 +1,70 @@
+#cart img {
+    width: 60%;
+}
+
+table + section {
+    margin: 4em auto 1em auto;
+    border: 2px solid black;
+    padding: 1em;
+    background: #EDE6AF;
+    max-width: 20%;
+}
+
+table + section +section {
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 1em;
+    background: #EDE6AF;
+    max-width: 20%;
+}
+
+td {
+    text-align: center;
+    background: #F1EDC6;
+    border: 2px solid black;
+    border-radius: 0.7em;
+    margin: 1em auto;
+    width: 1%;
+}
+
+table {
+    background: #EABEDC;
+    border: 2px solid black;
+    border-radius: 0.7em;
+    table-layout: fixed;
+    box-shadow: 0 0 1em 0.01em black;
+    margin: 0 2em;
+    border-collapse: separate;
+}
+
+button, button a {
+    border: none;
+    background: #baffc9;
+    padding: 1em 1em;
+    border-radius: 2em;
+    text-decoration: none;
+    font-family: 'Delius', cursive;
+    font-weight: bold;
+}
+
+#show article {
+    text-align: center;
+    flex-basis: 100%;
+    padding: 2em 0;
+}
+
+#show p:last-child {
+    display: inline;
+    margin: 0 auto;
+    padding: 2em 0 0 0;
+}
+
+td form {
+    text-align: left;
+    display: block;
+    margin: 0 2em;
+}
+
+td form input[type='submit'] {
+    display: inline;
+}

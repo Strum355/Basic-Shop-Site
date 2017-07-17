@@ -1,0 +1,71 @@
+#product {
+    border: 2px dashed black;
+    padding: 2em 2em;
+    background: rgb(168,205,224);
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 20em;
+}
+
+#product article {
+    text-align: center;
+    border-radius: 1em;
+    border: 1px dashed black;
+    padding: 1em 3em;
+    margin: 1em 0 0 0;
+    flex-basis: 80%;
+    background: #F1EDC6;
+}
+
+#product article a {
+    display: inline;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto 2em auto;
+    padding: 0 auto;
+    text-decoration: none;
+    color: #E27CAC;
+}
+
+#product article a[href]:visited {
+    color: #8E3D63
+}
+
+#product article a[href]:hover {
+    color: #EFB7D1;
+}
+
+#product p, #show img {
+    margin: 0.5em auto;
+    display: block;
+    text-align: center;
+}
+
+#product img {
+    box-shadow: 0 0 2em #777;   
+    margin: 1em auto;
+    width: 90%;
+    height: auto;
+    border-radius: 0.5em;
+    transition: 0.5s ease-in-out;
+}
+
+#product p:last-child {
+    padding: 0.5em 0;
+    border: 2px solid black;
+    border-width: 2px 0;
+}
+
+article form input{
+    display: inline;
+    max-width: 10%;
+}
+
+#product article form input[type='submit'] {
+    margin: 0.5em;
+    display: inline;
+    max-width: 100%;
+    background: #E27CAC;
+}
